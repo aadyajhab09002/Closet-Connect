@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.page {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #fffdfd, #fcfbfb,#ebbedc, hsl(332, 88%, 74%));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Logo */
+.logo-container {
+  text-align: center;
+  width: 500px;
+  height: 200px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.logo-container img {
+  width: 500px;      /* increase from ~200px */
+  margin-bottom: 10px;
+  border-radius: 13px;
+  filter: saturate(0.85); 
+}
+
+
+.tagline {
+  color: #7a2d6c;
+  margin-top: 5px;
+}
+
+/* Card */
+.login-card {
+  width: 460px;          /* was ~360px */
+  padding: 40px;         /* more breathing room */
+  border-radius: 24px;
+  background: white;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.18);
+}
+
+
+.login-card h2 {
+  font-size: 30px;   /* was ~24–26 */
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+/* Form */
+label {
+  display: block;
+  text-align: left;
+  margin-top: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border-radius: 10px;
+  border: 1px solid #cac9c9;
+}
+
+button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 15px;
+  border: black;
+  border-width: 10px;
+  border-radius: 15px;
+  background: linear-gradient(to right, #ff3cac, #ce7ed9,#5d36a6, #281668);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+
+}
+
+.register {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.register span {
+  color: #c03ad1;
+  cursor: pointer;
+}
+input {
+  font-size: 16px;
+  padding: 14px 16px;
+  border-radius: 12px;
+}

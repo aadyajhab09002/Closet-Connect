@@ -1,0 +1,15 @@
+.product-section {
+  padding: 40px;
+}
+
+.product-section h2 {
+  margin-bottom: 24px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 28px;
+}

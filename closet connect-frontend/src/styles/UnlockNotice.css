@@ -1,0 +1,69 @@
+.unlock-wrapper {
+  padding: 24px 40px;
+}
+
+.unlock-notice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: linear-gradient(
+    120deg,
+    #fff0f7,
+    #d49db6
+
+  );
+
+  border-radius: 20px;
+  padding: 20px 26px;
+  border-width: 15px;
+  border-color: #374151;
+  box-shadow: 0 10px 30px rgba(255, 105, 180, 0.12);
+}
+
+.unlock-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.unlock-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+
+  background: white;
+  color: #a855f7;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 4px 12px rgba(168, 85, 247, 0.25);
+}
+
+.unlock-text {
+  font-size: 25px;
+  color: #000000;
+}
+
+.unlock-strong {
+  font-weight: 400;
+}
+
+.unlock-muted {
+  color: #412465;
+  font-weight: 400;
+}
+
+.unlock-close {
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  color: #9ca3af;
+  cursor: pointer;
+}
+
+.unlock-close:hover {
+  color: #374151;
+}

@@ -1,0 +1,13 @@
+:root {
+  --primary-pink: #ff3cac;
+  --primary-purple: #784ba0;
+  --primary-blue: #2b86c5;
+
+  --text-dark: #1a1a1a;
+  --text-muted: #666;
+
+  --radius-lg: 24px;
+  --radius-md: 14px;
+
+  --shadow-soft: 0 30px 60px rgba(0,0,0,0.15);
+}

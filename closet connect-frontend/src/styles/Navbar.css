@@ -1,0 +1,104 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 16px 48px;
+  background: rgb(255, 255, 255);
+  
+}
+
+/* LEFT */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.navbar-logo {
+  width: 220px; /* control brand dominance here */
+  height: auto;
+}
+
+/* TABS */
+.navbar-tabs {
+  display: flex;
+  gap: 22px;
+  
+}
+
+.tab {
+  position: relative;
+  font-size: 19px;
+  color: #a57396;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.tab.active {
+  color: #7a2e4a;
+}
+
+.tab.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 2px;
+  background-color: #e7b6c9;
+  border-radius: 2px;
+}
+.tab:hover{
+  color:#bd728f ;
+}
+
+/* SEARCH */
+.navbar-search {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-search input {
+  width: 100%;
+  max-width: 480px;
+  padding: 14px 18px;
+  border-radius: 999px;
+  border: 1px solid #eee;
+  outline: none;
+  font-size: 14px;
+}
+
+/* RIGHT */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.bag-wrapper {
+  position: relative;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.bag-count {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background: #ff4d6d;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+.profile-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
